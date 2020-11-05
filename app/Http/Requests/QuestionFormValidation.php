@@ -27,7 +27,7 @@ class QuestionFormValidation extends FormRequest
             'firstName' => 'required',
             'lastName' => 'required',
             'phone' => 'required',
-            'email' => 'required',
+            'email' => 'required|email',
 //            'message' => 'required',
         ];
     }
